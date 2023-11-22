@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <a>Te1st</a>
+    <a>settingPage</a>
   </div>
 </template>
 

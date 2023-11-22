@@ -1,1 +1,8 @@
 @import "@/configs/share.scss";
+
+.container{
+  @include relative-block;
+}
+.content {
+  border: black solid 1px;
+}

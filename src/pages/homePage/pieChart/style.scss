@@ -1,0 +1,8 @@
+@import "@/configs/share.scss";
+
+.container{
+  background-color: var(--background-color);
+  border: var(--botton-color) solid 1px;
+  margin: 10px;
+  padding: 10px;
+}

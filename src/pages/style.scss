@@ -1,1 +1,33 @@
 @import "@/configs/share.scss";
+
+.container{
+  border: black solid 1px;
+}
+
+@media(min-width:1441px){
+  .container{
+    width: 1024px;
+  }
+}
+@media (max-width:1440px){
+  .container{
+    width: 1024px;
+  }
+}
+@media  (max-width:1024px){
+  .container{
+    width: 768px;
+  }
+}
+@media (max-width:769px){
+  .container{
+    width: 576px;
+  }
+}
+@media (max-width:576px){
+  .container{
+    width: 100%
+  }
+}
+
+
