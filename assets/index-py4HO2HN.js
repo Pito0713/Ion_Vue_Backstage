@@ -1,0 +1,1 @@
+import{_ as o,o as t,H as s,p as c,n as a,k as n}from"./index-VE_INCLl.js";const _={},d=e=>(c("data-v-2845b62b"),e=e(),a(),e),p=d(()=>n("a",null,"settingPage",-1)),r=[p];function i(e,l){return t(),s("div",null,r)}const u=o(_,[["render",i],["__scopeId","data-v-2845b62b"]]);export{u as default};
