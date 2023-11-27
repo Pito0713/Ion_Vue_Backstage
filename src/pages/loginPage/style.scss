@@ -1,0 +1,21 @@
+@import "@/configs/share.scss";
+.content {
+  @include flex-properties(end, center);
+  flex-direction: column;
+
+}
+.form {
+  background-color: var(--container-color);
+  border: 1px solid var(--border-color);
+  padding: 15px;
+
+  .input {
+    
+  }
+  .select {
+   
+  }
+  .picker {
+    
+  }
+}

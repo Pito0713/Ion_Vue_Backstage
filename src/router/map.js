@@ -1,8 +1,14 @@
 const routes = [
   {
     path: "/",
-    component: () => import("../pages/homePage/index.vue"),
+    component: () => import("../pages/loginPage/index.vue"),
     name: "/",
+    meta: { requiresAuth: false },
+  },
+  {
+    path: "/loginPage",
+    component: () => import("../pages/loginPage/index.vue"),
+    name: "loginPage",
     meta: { requiresAuth: false },
   },
   {
@@ -12,15 +18,15 @@ const routes = [
     meta: { requiresAuth: false },
   },
   {
-    path: "/memberPage",
-    component: () => import("../pages/memberPage/index.vue"),
-    name: "memberPage",
+    path: "/activePage",
+    component: () => import("../pages/activePage/index.vue"),
+    name: "activePage",
     meta: { requiresAuth: false },
   },
   {
-    path: "/settingPage",
-    component: () => import("../pages/settingPage/index.vue"),
-    name: "settingPage",
+    path: "/recordPage",
+    component: () => import("../pages/recordPage/index.vue"),
+    name: "recordPage",
     meta: { requiresAuth: false },
   },
 ];

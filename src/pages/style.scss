@@ -1,17 +1,20 @@
 @import "@/configs/share.scss";
 
 .container{
-  border: black solid 1px;
+  padding: 15px;
+  margin: 15px;
+  background-color: var(--container-color);
+  width: 100%;
+  height: calc(100vh - 60px);
 }
-
 @media(min-width:1441px){
   .container{
-    width: 1024px;
+    width: 768px;
   }
 }
 @media (max-width:1440px){
   .container{
-    width: 1024px;
+    width: 768px;
   }
 }
 @media  (max-width:1024px){
@@ -19,14 +22,14 @@
     width: 768px;
   }
 }
-@media (max-width:769px){
+@media (max-width:768px){
   .container{
     width: 576px;
   }
 }
 @media (max-width:576px){
   .container{
-    width: 100%
+    width: 456px
   }
 }
 

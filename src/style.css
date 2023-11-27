@@ -8,7 +8,10 @@
   -webkit-text-size-adjust: 100%;
 
   --primary-color:#b3b3b3;
-  --background-color:#fbfbfb;
+  --background-color:#eeeeee;
+
+  /* container */
+  --container-color:#ffffff;
 
   /* border */
   --border-color:#a1a1a1;
@@ -29,7 +32,7 @@
 a {
   font-weight: 500;
   text-decoration: inherit;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-color)
 }
 a:visited {
@@ -42,7 +45,7 @@ body {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  background-color: #eeeeee;
+  background-color: var(--background-color);
 }
 
 html {
@@ -71,7 +74,6 @@ ol {
 
 input {
   border: 0px;
-  border-bottom: 1px #2f312e  solid;
   background-color: transparent;
   font-size: 14px;
 }

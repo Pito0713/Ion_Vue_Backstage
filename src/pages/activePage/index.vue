@@ -1,12 +1,17 @@
 <script setup>
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 const router = useRouter()
+
+const handleClose = (done) => {
+  router.push('/recordPage');
+}
 </script>
 
 <template>
-  <div class="container">
-    <router-view />
-  </div>
+  <el-button type="primary" @click="handleClose">
+    Confirm
+  </el-button>
 </template>
 
 <style lang="scss" scoped>

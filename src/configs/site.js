@@ -6,17 +6,22 @@ export const LANGUAGE_LIST = [{ value: "zh-TW", lang: "中文" }];
 export const MENU_LIST = [
   {
     code: 0,
+    name: "loginPage",
+    route: "/loginPage",
+  },
+  {
+    code: 1,
     name: "homePage",
     route: "/homePage",
   },
   {
-    code: 1,
-    name: "memberPage",
-    route: "/memberPage",
+    code: 2,
+    name: "activePage",
+    route: "/activePage",
   },
   {
-    code: 2,
-    name: "settingPage",
-    route: "/settingPage",
+    code: 3,
+    name: "recordPage",
+    route: "/recordPage",
   },
 ];
