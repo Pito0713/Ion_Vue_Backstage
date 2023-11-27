@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 
 // 建立
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory("/ion_vue_frontstage_web"),
   routes,
 });
 

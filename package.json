@@ -1,12 +1,15 @@
 {
   "name": "ion_vue_frontstage_web",
+  "homepage": "https://pito0713.github.io/Ion_vue_frontstage_web/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist",
+    "setup": "rm -rf node_modules && yarn install"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
@@ -14,6 +17,7 @@
     "axios": "^1.6.2",
     "chart.js": "^4.4.0",
     "element-plus": "^2.4.2",
+    "gh-pages": "^6.1.0",
     "js-cookie": "^3.0.5",
     "pinia": "^2.1.7",
     "sass": "^1.69.5",
