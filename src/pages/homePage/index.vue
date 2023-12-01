@@ -5,7 +5,7 @@ const router = useRouter()
 const dialogVisible = ref(false)
 
 const handleClose = (done) => {
-  router.push('/activePage');
+  router.push('/loginPage');
 }
 
 const activeNames = ref(['1'])

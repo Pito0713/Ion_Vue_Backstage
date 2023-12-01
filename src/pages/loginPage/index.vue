@@ -12,10 +12,7 @@ const formInline = reactive({
 })
 
 const onSubmit = (e) => {
-  loading.value = true
-  console.log(formInline)
-  router.push('/homePage');
-
+  router.push('/activePage');
 }
 </script>
 

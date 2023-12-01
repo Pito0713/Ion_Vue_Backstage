@@ -1,9 +1,10 @@
 const routes = [
   {
     path: "/",
-    component: () => import("../pages/loginPage/index.vue"),
+    component: () => import("../pages/homePage/index.vue"),
     name: "/",
     meta: { requiresAuth: false },
+    redirect: "/loginPage",
   },
   {
     path: "/loginPage",
@@ -22,6 +23,7 @@ const routes = [
     component: () => import("../pages/activePage/index.vue"),
     name: "activePage",
     meta: { requiresAuth: false },
+    // redirect: "/loginPage",
   },
   {
     path: "/recordPage",
